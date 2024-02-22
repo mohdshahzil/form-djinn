@@ -1,10 +1,10 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
+import FormGenerator from "./form-generator";
 const page = () => {
   return (
-    <div>
-      {" "}
-      <Button>Click me</Button>
+    <div className="min-h-screen flex flex-col items-center justify-between p-24">
+      <FormGenerator />
     </div>
   );
 };
